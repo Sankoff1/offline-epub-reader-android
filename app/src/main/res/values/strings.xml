@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Kotlin Android Template</string>
+
+    <!-- drawer -->
+    <string name="drawer_readingNow">Читаю сейчас</string>
+    <string name="drawer_books">Книги и документы</string>
+    <string name="drawer_favorites">Избранное</string>
+    <string name="drawer_cart">Корзина</string>
+    <string name="drawer_debugLogs">Отладочные логи</string>
+    <string name="drawer_settings">Настройки</string>
+
+    <!-- screens -->
+    <string name="screens_readingNow_title">Читаю сейчас</string>
+    <string name="screens_readingNow_subtitle">Здесь будет список текущих книг.</string>
+    <string name="screens_readingNow_empty">Вы ещё ничего не читаете. Откройте книгу из библиотеки — она появится здесь.</string>
+    <string name="screens_favorites_title">Избранное</string>
+    <string name="screens_favorites_subtitle">Избранные книги.</string>
+    <string name="screens_favorites_empty">Пока нет избранных книг. Откройте меню книги в списке и добавьте её в избранное.</string>
+    <string name="screens_cart_title">Корзина</string>
+    <string name="screens_cart_subtitle">Удалённые элементы.</string>
+    <string name="screens_cart_empty">Корзина пуста.</string>
+
+    <!-- debug logs -->
+    <string name="debugLogs_title">Отладочные логи</string>
+    <string name="debugLogs_subtitle">Сюда попадают сообщения консоли (в т.ч. из release APK). Можно очистить или экспортировать в файл и отправить разработчику.</string>
+    <string name="debugLogs_clear">Очистить</string>
+    <string name="debugLogs_copy">Скопировать</string>
+    <string name="debugLogs_export">Экспорт в файл</string>
+    <string name="debugLogs_empty">Пока нет записей. Откройте книгу или подождите сообщений приложения.</string>
+    <string name="debugLogs_exportFailed">Не удалось экспортировать</string>
+    <string name="debugLogs_exportNoCache">Каталог кэша недоступен — экспорт невозможен.</string>
+    <string name="debugLogs_exportSaved">Файл сохранён. Поделиться с устройства не удалось — путь:</string>
+    <string name="debugLogs_exportDialogTitle">Поделиться логом</string>
+
+    <!-- settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_themeSection">Тема оформления</string>
+    <string name="settings_themeLight">Светлая</string>
+    <string name="settings_themeDark">Тёмная</string>
+    <string name="settings_darkTheme">Тёмная тема</string>
+    <string name="settings_languageSection">Язык интерфейса (Language)</string>
+    <string name="settings_languageRu">Русский</string>
+    <string name="settings_languageEn">English</string>
+    <string name="settings_versionLabel">Версия приложения</string>
+
+    <!-- first launch -->
+    <string name="firstLaunch_message">Откройте книгу в формате EPUB с устройства.</string>
+    <string name="firstLaunch_cancel">Отмена</string>
+    <string name="firstLaunch_pickEpub">Выбрать .epub</string>
+
+    <!-- books -->
+    <string name="books_empty">Пока нет добавленных книг. Нажмите «+», чтобы выбрать EPUB.</string>
+    <string name="books_addBookA11y">Добавить книгу EPUB</string>
+    <string name="books_readPercent">%1$d%% прочитано</string>
+
+    <!-- reader -->
+    <string name="reader_backToLibrary">← В библиотеку</string>
+    <string name="reader_back">Назад</string>
+    <string name="reader_forward">Вперёд</string>
+    <string name="reader_chapterProgress">Глава %1$d / %2$d</string>
+    <string name="reader_chapterLabel">Глава %1$d</string>
+    <string name="reader_toc">Оглавление</string>
+    <string name="reader_loading">Загрузка книги…</string>
+    <string name="reader_errorTitle">Не удалось открыть книгу</string>
+    <string name="reader_backToBooks">В библиотеку</string>
+    <string name="reader_errors_emptySpine">В книге нет ни одной главы.</string>
+    <string name="reader_errors_openFailed">Не удалось открыть или разобрать книгу.</string>
+    <string name="reader_errors_unknown">Произошла неизвестная ошибка при открытии книги.</string>
+    <string name="reader_errors_timeoutCopy">Копирование EPUB во внутреннее хранилище слишком затянулось. Проверьте файл и свободное место.</string>
+    <string name="reader_errors_timeoutUnzip">Распаковка EPUB слишком затянулась. Файл может быть очень большим или повреждённым.</string>
+    <string name="reader_errors_timeoutPrepareChapter">Подготовка главы заняла слишком много времени.</string>
+    <string name="reader_errors_copyFailed">Не удалось скопировать EPUB во внутреннее хранилище. Проверьте исходный файл и свободное место.</string>
+    <string name="reader_errors_unzipFailed">Не удалось распаковать EPUB. Файл может быть повреждён или не является EPUB.</string>
+    <string name="reader_errors_containerMissing">В EPUB отсутствует обязательный META-INF/container.xml.</string>
+    <string name="reader_errors_opfParseFailed">Не удалось разобрать индекс EPUB (OPF). Файл может быть повреждён.</string>
+    <string name="reader_errors_chapterReadFailed">Не удалось прочитать главу. Файл может быть повреждён.</string>
+    <string name="reader_errors_badSourceUri">Некорректный источник EPUB.</string>
+    <string name="reader_errors_internal">Внутренняя ошибка ридера. Попробуйте переоткрыть книгу.</string>
+
+    <!-- library -->
+    <string name="library_importFailed">Не удалось добавить книгу.</string>
+
+    <!-- picker -->
+    <string name="picker_invalidExtension">Выберите файл с расширением .epub.</string>
+    <string name="picker_openFailed">Не удалось открыть выбор файла. Попробуйте ещё раз.</string>
+
+    <!-- book -->
+    <string name="book_untitled">Без названия</string>
+    <string name="book_unknownAuthor">Неизвестный автор</string>
+
+    <!-- common -->
+    <string name="common_mb">МБ</string>
+    <string name="common_cancel">Отмена</string>
+
+    <!-- library screen -->
+    <string name="libraryScreen_title">Библиотека</string>
+    <string name="libraryScreen_subtitle">Откройте книгу в формате EPUB с устройства.</string>
+    <string name="libraryScreen_pickEpub">Выбрать .epub</string>
+
+    <!-- a11y -->
+    <string name="a11y_openMenu">Открыть меню</string>
+    <string name="a11y_addBook">Добавить книгу</string>
+    <string name="a11y_search">Поиск</string>
+    <string name="a11y_closeSearch">Закрыть поиск</string>
+    <string name="a11y_languagePicker">Выбрать язык интерфейса</string>
+    <string name="a11y_dismissOverlay">Закрыть</string>
+
+    <!-- search -->
+    <string name="search_placeholder">Поиск по названию или автору</string>
+    <string name="search_noResults">Ничего не найдено. Попробуйте изменить запрос.</string>
+
+    <!-- book actions -->
+    <string name="bookActions_title">Действия с книгой</string>
+    <string name="bookActions_addToFavorites">В избранное</string>
+    <string name="bookActions_removeFromFavorites">Убрать из избранного</string>
+    <string name="bookActions_moveToTrash">В корзину</string>
+
+    <!-- trash -->
+    <string name="trash_restore">Восстановить</string>
+    <string name="trash_deleteForever">Удалить навсегда</string>
+    <string name="trash_confirmDeleteTitle">Удалить книгу навсегда?</string>
+    <string name="trash_confirmDeleteMessage">Файл книги и обложка будут удалены с устройства. Действие нельзя отменить.</string>
+    <string name="trash_deleteFailed">Не удалось удалить книгу.</string>
+
+    <!-- storage errors -->
+    <string name="storage_errors_openFailed">Не удалось открыть локальную базу данных. Проверьте свободное место и перезапустите приложение.</string>
+    <string name="storage_errors_generic">Ошибка хранилища. Повторите попытку или очистите данные приложения.</string>
+    <string name="storage_errors_invalidBookId">Идентификатор книги пустой.</string>
+    <string name="storage_errors_invalidProgressOffset">Некорректное значение прокрутки.</string>
+    <string name="storage_errors_invalidProgressScrollRange">Некорректный диапазон прокрутки главы.</string>
+</resources>

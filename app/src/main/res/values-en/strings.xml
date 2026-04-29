@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Chitalka</string>
+
+    <!-- drawer -->
+    <string name="drawer_readingNow">Reading now</string>
+    <string name="drawer_books">Books &amp; documents</string>
+    <string name="drawer_favorites">Favorites</string>
+    <string name="drawer_cart">Trash</string>
+    <string name="drawer_debugLogs">Debug logs</string>
+    <string name="drawer_settings">Settings</string>
+
+    <!-- screens -->
+    <string name="screens_readingNow_title">Reading now</string>
+    <string name="screens_readingNow_subtitle">Your current books will appear here.</string>
+    <string name="screens_readingNow_empty">You aren\'t reading anything yet. Open a book from the library — it will show up here.</string>
+    <string name="screens_favorites_title">Favorites</string>
+    <string name="screens_favorites_subtitle">Favorite books.</string>
+    <string name="screens_favorites_empty">No favorites yet. Open a book\'s menu in the list and add it to favorites.</string>
+    <string name="screens_cart_title">Trash</string>
+    <string name="screens_cart_subtitle">Removed items.</string>
+    <string name="screens_cart_empty">Trash is empty.</string>
+
+    <!-- debug logs -->
+    <string name="debugLogs_title">Debug logs</string>
+    <string name="debugLogs_subtitle">Console output is captured here (including release APK builds). Clear or export to a file to share with the developer.</string>
+    <string name="debugLogs_clear">Clear</string>
+    <string name="debugLogs_copy">Copy</string>
+    <string name="debugLogs_export">Export to file</string>
+    <string name="debugLogs_empty">No entries yet. Open a book or wait for app messages.</string>
+    <string name="debugLogs_exportFailed">Export failed</string>
+    <string name="debugLogs_exportNoCache">Cache directory is unavailable; cannot export.</string>
+    <string name="debugLogs_exportSaved">File saved. Sharing is unavailable — path:</string>
+    <string name="debugLogs_exportDialogTitle">Share log</string>
+
+    <!-- settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_themeSection">Appearance</string>
+    <string name="settings_themeLight">Light</string>
+    <string name="settings_themeDark">Dark</string>
+    <string name="settings_darkTheme">Dark theme</string>
+    <string name="settings_languageSection">Interface language</string>
+    <string name="settings_languageRu">Russian</string>
+    <string name="settings_languageEn">English</string>
+    <string name="settings_versionLabel">App version</string>
+
+    <!-- first launch -->
+    <string name="firstLaunch_message">Open a book in EPUB format from your device.</string>
+    <string name="firstLaunch_cancel">Cancel</string>
+    <string name="firstLaunch_pickEpub">Choose .epub</string>
+
+    <!-- books -->
+    <string name="books_empty">No books yet. Tap “+” to choose an EPUB file.</string>
+    <string name="books_addBookA11y">Add EPUB book</string>
+    <string name="books_readPercent">%1$d%% read</string>
+
+    <!-- reader -->
+    <string name="reader_backToLibrary">← Back to library</string>
+    <string name="reader_back">Back</string>
+    <string name="reader_forward">Forward</string>
+    <string name="reader_chapterProgress">Chapter %1$d / %2$d</string>
+    <string name="reader_chapterLabel">Chapter %1$d</string>
+    <string name="reader_toc">Contents</string>
+    <string name="reader_loading">Loading book…</string>
+    <string name="reader_errorTitle">Could not open book</string>
+    <string name="reader_backToBooks">Back to library</string>
+    <string name="reader_errors_emptySpine">This book has no chapters.</string>
+    <string name="reader_errors_openFailed">Could not open or parse the book.</string>
+    <string name="reader_errors_unknown">An unknown error occurred while opening the book.</string>
+    <string name="reader_errors_timeoutCopy">Copying the EPUB into app storage took too long. Check the file and free space.</string>
+    <string name="reader_errors_timeoutUnzip">Unpacking the EPUB took too long. The file may be very large or corrupted.</string>
+    <string name="reader_errors_timeoutPrepareChapter">Preparing the chapter took too long.</string>
+    <string name="reader_errors_copyFailed">Could not copy the EPUB into app storage. Check the source file and free space.</string>
+    <string name="reader_errors_unzipFailed">Could not unpack the EPUB. The file may be corrupted or not a valid EPUB.</string>
+    <string name="reader_errors_containerMissing">EPUB is missing required metadata (META-INF/container.xml).</string>
+    <string name="reader_errors_opfParseFailed">Could not read the EPUB index (OPF). The file may be corrupted.</string>
+    <string name="reader_errors_chapterReadFailed">Could not read the chapter. The file may be corrupted.</string>
+    <string name="reader_errors_badSourceUri">Invalid source for the EPUB file.</string>
+    <string name="reader_errors_internal">Internal reader error. Try reopening the book.</string>
+
+    <!-- library -->
+    <string name="library_importFailed">Could not add the book.</string>
+
+    <!-- picker -->
+    <string name="picker_invalidExtension">Please choose a file with the .epub extension.</string>
+    <string name="picker_openFailed">Could not open the file picker. Please try again.</string>
+
+    <!-- book -->
+    <string name="book_untitled">Untitled</string>
+    <string name="book_unknownAuthor">Unknown author</string>
+
+    <!-- common -->
+    <string name="common_mb">MB</string>
+    <string name="common_cancel">Cancel</string>
+
+    <!-- library screen -->
+    <string name="libraryScreen_title">Library</string>
+    <string name="libraryScreen_subtitle">Open a book in EPUB format from your device.</string>
+    <string name="libraryScreen_pickEpub">Choose .epub</string>
+
+    <!-- a11y -->
+    <string name="a11y_openMenu">Open menu</string>
+    <string name="a11y_addBook">Add book</string>
+    <string name="a11y_search">Search</string>
+    <string name="a11y_closeSearch">Close search</string>
+    <string name="a11y_languagePicker">Choose interface language</string>
+    <string name="a11y_dismissOverlay">Close</string>
+
+    <!-- search -->
+    <string name="search_placeholder">Search by title or author</string>
+    <string name="search_noResults">Nothing found. Try a different query.</string>
+
+    <!-- book actions -->
+    <string name="bookActions_title">Book actions</string>
+    <string name="bookActions_addToFavorites">Add to favorites</string>
+    <string name="bookActions_removeFromFavorites">Remove from favorites</string>
+    <string name="bookActions_moveToTrash">Move to trash</string>
+
+    <!-- trash -->
+    <string name="trash_restore">Restore</string>
+    <string name="trash_deleteForever">Delete forever</string>
+    <string name="trash_confirmDeleteTitle">Delete book permanently?</string>
+    <string name="trash_confirmDeleteMessage">The book file and cover will be removed from the device. This cannot be undone.</string>
+    <string name="trash_deleteFailed">Could not delete the book.</string>
+
+    <!-- storage errors -->
+    <string name="storage_errors_openFailed">Could not open the local database. Check free space and restart the app.</string>
+    <string name="storage_errors_generic">Storage error. Please retry or clear app data.</string>
+    <string name="storage_errors_invalidBookId">Book id is empty.</string>
+    <string name="storage_errors_invalidProgressOffset">Invalid scroll offset value.</string>
+    <string name="storage_errors_invalidProgressScrollRange">Invalid chapter scroll range value.</string>
+</resources>
